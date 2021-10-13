@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MailKit" Version="2.13.0" />
+    <PackageReference Include="MailKit" Version="2.15.0" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
-    <PackageReference Include="MimeKit" Version="2.13.0" />
+    <PackageReference Include="MimeKit" Version="2.15.0" />
   </ItemGroup>
 
   <ItemGroup>
