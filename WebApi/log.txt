@@ -1943,3 +1943,43 @@ Error Number:4060,State:1,Class:11
 2021-07-16 15:31:19.525 +06:00 [INF] HTTP POST /api/Account/login responded 200 in 498.1875 ms
 2021-07-16 15:32:03.285 +06:00 [INF] Api Request: UpdateStudentCommand 3b2773e2-c277-44b1-9e52-7683ccb3983a masum123 {"Id":3,"FirstName":"Md","LastName":"Masum","Email":"md.wr.masum@gmail.com","Phone":"01827447550","Age":25,"Address":"Bogura","$type":"UpdateStudentCommand"}
 2021-07-16 15:33:26.710 +06:00 [INF] HTTP PUT /api/v1/Student/3 responded 400 in 83537.0476 ms
+2021-11-03 16:23:08.466 +06:00 [INF] Finished Seeding Default Data
+2021-11-03 16:23:08.482 +06:00 [INF] Application Starting
+2021-11-03 16:23:08.626 +06:00 [INF] Start installing Hangfire SQL objects...
+2021-11-03 16:23:09.116 +06:00 [INF] Hangfire SQL objects installed.
+2021-11-03 16:23:09.135 +06:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: MASUM-PC\SQLEXPRESS@OnlineSchoolDb'
+2021-11-03 16:23:09.135 +06:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+2021-11-03 16:23:09.136 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2021-11-03 16:23:09.497 +06:00 [INF] Server masum-pc:20796:5b7a117a successfully announced in 334.3648 ms
+2021-11-03 16:23:09.505 +06:00 [INF] Server masum-pc:20796:5b7a117a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2021-11-03 16:23:09.580 +06:00 [INF] 1 servers were removed due to timeout
+2021-11-03 16:23:09.790 +06:00 [INF] Server masum-pc:20796:5b7a117a all the dispatchers started
+2021-11-03 16:23:09.993 +06:00 [WRN] Failed to determine the https port for redirect.
+2021-11-03 16:23:10.215 +06:00 [INF] HTTP GET /swagger responded 301 in 264.2135 ms
+2021-11-03 16:23:10.287 +06:00 [INF] HTTP GET /swagger/index.html responded 200 in 56.1956 ms
+2021-11-03 16:23:10.344 +06:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 36.4014 ms
+2021-11-03 16:23:10.352 +06:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 44.3461 ms
+2021-11-03 16:23:10.363 +06:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 54.6912 ms
+2021-11-03 16:23:10.364 +06:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 3.3642 ms
+2021-11-03 16:23:10.388 +06:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 4.9767 ms
+2021-11-03 16:23:10.544 +06:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.4442 ms
+2021-11-03 16:23:10.610 +06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 92.0605 ms
+2021-11-03 16:23:27.445 +06:00 [INF] Api Request: GetAllStudentQuery null null {"PageNumber":1,"PageSize":10,"$type":"GetAllStudentQuery"}
+2021-11-03 16:23:27.619 +06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-11-03 16:23:27.620 +06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2021-11-03 16:23:27.645 +06:00 [INF] Api Running Request: GetAllStudentQuery (189 milliseconds) null null
+2021-11-03 16:23:27.668 +06:00 [INF] HTTP GET /api/v1/Student responded 200 in 326.9202 ms
+2021-11-03 16:24:05.902 +06:00 [INF] HTTP POST /api/v1/Student responded 401 in 11.1383 ms
+2021-11-03 16:24:45.869 +06:00 [INF] HTTP POST /api/Account/register responded 400 in 290.9616 ms
+2021-11-03 16:25:04.532 +06:00 [INF] HTTP POST /api/Account/login responded 400 in 192.9119 ms
+2021-11-03 16:25:37.732 +06:00 [INF] HTTP POST /api/Account/login responded 200 in 358.1303 ms
+2021-11-03 16:26:04.886 +06:00 [INF] Api Request: CreateStudentCommand 347d6ac4-210c-42c1-843d-868db1dbbf4b superadmin {"FirstName":"Md","LastName":"Masum","Email":"md.wr.masum@gmail.com","Phone":"01633516734","Age":26,"Address":"string","$type":"CreateStudentCommand"}
+2021-11-03 16:26:05.069 +06:00 [INF] Api Running Request: CreateStudentCommand (182 milliseconds) 347d6ac4-210c-42c1-843d-868db1dbbf4b superadmin
+2021-11-03 16:26:05.102 +06:00 [INF] HTTP POST /api/v1/Student responded 201 in 306.4085 ms
+2021-11-03 16:26:11.294 +06:00 [INF] Api Request: GetAllStudentQuery 347d6ac4-210c-42c1-843d-868db1dbbf4b superadmin {"PageNumber":1,"PageSize":10,"$type":"GetAllStudentQuery"}
+2021-11-03 16:26:11.299 +06:00 [INF] Api Running Request: GetAllStudentQuery (4 milliseconds) 347d6ac4-210c-42c1-843d-868db1dbbf4b superadmin
+2021-11-03 16:26:11.299 +06:00 [INF] HTTP GET /api/v1/Student responded 200 in 22.0468 ms
